@@ -4,7 +4,7 @@ const puppeteer=require('puppeteer');
     const browser=await puppeteer.launch({
         headless:false
     });
-    // const page=await browser.newPage();
+    const page=await browser.newPage();
     await page.goto('https://www.incredibleindia-tourism.org/state-in-india/state-in-india.html',
         { waitUntil: "networkidle2" }
     );
