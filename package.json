@@ -1,0 +1,25 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "statWebscraping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekhaaru24-cell/TasksRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lekhaaru24-cell/TasksRepo/issues"
+  },
+  "homepage": "https://github.com/lekhaaru24-cell/TasksRepo#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "puppeteer": "^25.3.0"
+  }
+}
