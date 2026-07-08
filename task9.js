@@ -33,10 +33,10 @@ async function collectRecords(page) {
                 $(".whats_on_tdy_row").each((index, element) => {
 
                     // Get all the text values
-                    const departmentCode= $(element).find(".whats_on_tdy_text_1 a").text().trim();
+                    const departmentCode = $(element).find(".whats_on_tdy_text_1 a").text().trim();
                     const linkText       = $(element).find(".whats_on_tdy_text_2 a").text().trim();
                     const date           = $(element).find(".whats_on_tdy_ball").text().trim();
-                    const refNumber      = $(element).find(".whats_on_tdy_text_3").text().replace("Ref Number:"," ").trim();
+                    const refNumber      = $(element).find(".whats_on_tdy_text_3").text().replace("Ref Number: ","").trim();
 
                     // Get the link
                     let link = $(element).find(".whats_on_tdy_text_2 a").attr("href");
@@ -68,7 +68,7 @@ async function collectRecords(page) {
         // Scroll to the bottom of the page
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
 
-        // Wait for API response
+        // Wait for new data to load
         await new Promise(resolve => setTimeout(resolve, 2500));
 
         console.log("Current total:", records.length);
@@ -78,18 +78,6 @@ async function collectRecords(page) {
             stuckCount++;
             console.log(`No new records. Attempt ${stuckCount}/${maxStuckAttempts}`);
 
-            // Try clicking "Load More" button if available
-            try {
-                const loadMoreBtn = await page.$(".loadMore, .load-more, .btn-load-more, [class*='load'], [class*='more']");
-                if (loadMoreBtn) {
-                    console.log("Clicking Load More button...");
-                    await loadMoreBtn.click();
-                    await new Promise(resolve => setTimeout(resolve, 2500));
-                }
-            } catch (err) {
-                console.log("No Load More button found:", err.message);
-            }
-  
             // Break if stuck for too long
             if (stuckCount >= maxStuckAttempts) {
                 console.log("No more new records loading. Stopping.");
@@ -106,7 +94,6 @@ async function collectRecords(page) {
     // Keep only first 250 records
     return records.slice(0, 250);
 }
-
 // PART 3: save the results and close the browser
 async function saveResult(records, browser) {
 

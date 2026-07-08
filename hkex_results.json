@@ -1,5 +1,33 @@
 [
     {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_167_26_ec.pdf",
+        "date": "06Jul 2026",
+        "refNumber": "MO/DT/167/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Amendments to the Rules of the Exchangepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/031_26_SEHK_Chap14A_e.pdf",
+        "date": "06Jul 2026",
+        "refNumber": "LSD/031/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Routine recalculation of Notional Exchange Risk Multiplierpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Jul-2026_174.pdf",
+        "date": "03Jul 2026",
+        "refNumber": "ORM/CRC/174/2026",
+        "departmentCode": "OTC Clear"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_213_2026.pdf",
+        "date": "03Jul 2026",
+        "refNumber": "PT/NIS/CCASS/213/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
         "linkText": "Discontinuation of the Eligibility of CCASS Stocks – China Connect Securities under Shanghai-Hong Kong Stock Connectpdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_212_2026.pdf",
         "date": "03Jul 2026",
@@ -126,7 +154,7 @@
         "departmentCode": "HKCC"
     },
     {
-        "linkText": "Glory Flame Holdings Limited (Stock Code: 8059) - Proposal of Capital Reorganisationpdf",
+        "linkText": "Glory Flame Holdings Limited (Stock Code: 8059) - Proposal of Capital Reorganisation (8 Jul: Cancelled per issuer announcement)\npdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_206_2026.pdf",
         "date": "02Jul 2026",
         "refNumber": "PT/NIS/CCASS/206/2026",
@@ -213,7 +241,7 @@
         "linkText": "CLAIM NOTICE FOR THE FIDELITY FUND AND GUARANTEE SCHEMEpdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_010_2026.pdf",
         "date": "30Jun 2026",
-        "refNumber": "Claim Form - Claims Against the Fidelity Fundpdf  PA/010/2026",
+        "refNumber": "Claim Form - Claims Against the Fidelity FundpdfPA/010/2026",
         "departmentCode": "SEHK"
     },
     {
@@ -273,13 +301,6 @@
         "departmentCode": "SEHKHKEX Rule EnforcementStock Connect"
     },
     {
-        "linkText": "Amendments to the Rules of the Exchangepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/030_26_SEHK_structured-product_e.pdf",
-        "date": "30Jun 2026",
-        "refNumber": "LSD/030/2026",
-        "departmentCode": "SEHK"
-    },
-    {
         "linkText": "New Index Options Strike Seriespdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_161_26_ec.pdf",
         "date": "30Jun 2026",
@@ -292,6 +313,13 @@
         "date": "30Jun 2026",
         "refNumber": "MO/DT/160/26",
         "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Amendments to the Rules of the Exchangepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/030_26_SEHK_structured-product_e.pdf",
+        "date": "30Jun 2026",
+        "refNumber": "LSD/030/2026",
+        "departmentCode": "SEHK"
     },
     {
         "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
@@ -311,7 +339,7 @@
         "linkText": "Optional Post Release Test for the Trading Rules Amendments of Shanghai Stock Exchange and Shenzhen Stock Exchangepdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT09726E.pdf",
         "date": "29Jun 2026",
-        "refNumber": "Attachment 1: Registration Form for Shanghai Stock Exchange and Shenzhen Stock Exchange Trading Rules Amendments Post Release Testpdf  CT/097/26",
+        "refNumber": "Attachment 1: Registration Form for Shanghai Stock Exchange and Shenzhen Stock Exchange Trading Rules Amendments Post Release TestpdfCT/097/26",
         "departmentCode": "SEHK"
     },
     {
@@ -364,39 +392,95 @@
         "departmentCode": "HKSCC"
     },
     {
-        "linkText": "Discontinuation of the Eligibility of CCASS Stocks – China Connect Securities under Shanghai-Hong Kong Stock Connectpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_197_2026.pdf",
-        "date": "25Jun 2026",
-        "refNumber": "PT/NIS/CCASS/197/2026",
-        "departmentCode": "HKSCCStock Connect"
+        "linkText": "Revision of Target Confidence Level and Introduction of Multi-Tier Intracommodity (Intermonth) Spread Charge for USD Gold Futures and CNH Gold Futurespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/HKCC_GRM_QRM_Gold-Futures-RM-Adjustments_English.pdf",
+        "date": "26Jun 2026",
+        "refNumber": "GRM/QRM/006/2026",
+        "departmentCode": "HKCC"
     },
     {
-        "linkText": "CSOP Samsung Electronics Daily (-2x) Inverse Product (HKD Counter Stock Code: 7347 / USD Counter Stock Code: 9347) - Unit Consolidation and Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_196_2026.pdf",
-        "date": "25Jun 2026",
-        "refNumber": "PT/NIS/CCASS/196/2026",
+        "linkText": "Mexan Limited (Stock Code: 22) - Proposal of Share Consolidation and Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_199_2026.pdf",
+        "date": "26Jun 2026",
+        "refNumber": "PT/NIS/CCASS/199/2026",
         "departmentCode": "HKSCC"
     },
     {
-        "linkText": "Youzan Technology Limited (Stock Code: 6051) - Proposal of Share Consolidation and Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_195_2026.pdf",
-        "date": "25Jun 2026",
-        "refNumber": "PT/NIS/CCASS/195/2026",
+        "linkText": "Yuan Heng Gas Holdings Limited (Stock Code: 332) - Proposal of Capital Reorganisation and Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_198_2026.pdf",
+        "date": "26Jun 2026",
+        "refNumber": "PT/NIS/CCASS/198/2026",
         "departmentCode": "HKSCC"
     },
     {
-        "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/Circular-MSM_007_2026-(Eng).pdf",
+        "linkText": "Display of Adjusted Previous Closing Price of China Ecotourism Group Limited (stock code 1371) on OTP-C for its 10-into-1 Share Consolidation on 29 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026091_e.pdf",
+        "date": "26Jun 2026",
+        "refNumber": "PT/NIS/SMD/091/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_158_26_ec.pdf",
+        "date": "26Jun 2026",
+        "refNumber": "MO/DT/158/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Trading Arrangements of E Fund (HK) HKEX Tech 100 Index ETFpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_095_2026.pdf",
+        "date": "25Jun 2026",
+        "refNumber": "Attachment 1: Trading Arrangements of E Fund (HK) HKEX Tech 100 Index ETFpdfAttachment 2: Details of market making obligations of E Fund (HK) HKEX Tech 100 Index ETFpdfCT/095/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Strike Price Interval Enhancements for Weekly Index Options",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_07_26_e.pdf",
+        "date": "25Jun 2026",
+        "refNumber": "EQD/07/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Strike Price Interval Enhancements for Weekly Stock Options",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/EQD_06_26_e.pdf",
+        "date": "25Jun 2026",
+        "refNumber": "EQD/06/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Artgo Holdings Limited (Stock Code: 3313) - Proposal of Share Consolidation and Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_190_2026.pdf",
+        "date": "24Jun 2026",
+        "refNumber": "PT/NIS/CCASS/190/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Pricepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_155_26_e.pdf",
+        "date": "24Jun 2026",
+        "refNumber": "MO/DT/155/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "The Phase 2 Implementation of Minimum Spreads Reduction (“Phase  2”) in the Hong Kong Securities Market and Adjustment to the Stock Options Daily Market Report (“DMR”)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT09326E.pdf",
+        "date": "24Jun 2026",
+        "refNumber": "CT/093/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "HKEX Backbone Network Upgrade for Securities Market Systems - Optional Third Market Rehearsalpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT09026E.pdf",
         "date": "23Jun 2026",
-        "refNumber": "MSM/007/2026",
-        "departmentCode": "SEOCHHKEX Rule Enforcement"
+        "refNumber": "Attachment 1: Registration Form for HKEX Backbone Network Upgrade for Securities Market Systems Market Rehearsal 3pdfCT/090/26",
+        "departmentCode": "SEHK"
     },
     {
         "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/Circular-MSM_007_2026-(Eng).pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/Circular-MSM_007_2026-(Eng).pdf",
         "date": "23Jun 2026",
         "refNumber": "MSM/007/2026",
-        "departmentCode": "HKCCHKEX Rule Enforcement"
+        "departmentCode": "HKSCCHKEX Rule Enforcement"
     },
     {
         "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
@@ -407,17 +491,24 @@
     },
     {
         "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/Circular-MSM_007_2026-(Eng).pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/Circular-MSM_007_2026-(Eng).pdf",
         "date": "23Jun 2026",
         "refNumber": "MSM/007/2026",
-        "departmentCode": "HKSCCHKEX Rule Enforcement"
+        "departmentCode": "HKCCHKEX Rule Enforcement"
     },
     {
-        "linkText": "HKEX Backbone Network Upgrade for Securities Market Systems - Optional Third Market Rehearsalpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT09026E.pdf",
+        "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/Circular-MSM_007_2026-(Eng).pdf",
         "date": "23Jun 2026",
-        "refNumber": "Attachment 1: Registration Form for HKEX Backbone Network Upgrade for Securities Market Systems Market Rehearsal 3pdf  CT/090/26",
-        "departmentCode": "SEHK"
+        "refNumber": "MSM/007/2026",
+        "departmentCode": "HKFEHKEX Rule Enforcement"
+    },
+    {
+        "linkText": "REMINDER - 2026 Annual Attestation and Inspection Programme - Self-attestation of Compliance Questionnairepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/Circular-MSM_007_2026-(Eng).pdf",
+        "date": "23Jun 2026",
+        "refNumber": "MSM/007/2026",
+        "departmentCode": "SEOCHHKEX Rule Enforcement"
     },
     {
         "linkText": "Delisting of JUNDAO LIQUOR ENT (DELIST ARR PERIOD) (SSE Security Code: 600696) from SSEpdf",
@@ -486,7 +577,7 @@
         "linkText": "Trading Arrangements of E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETFpdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_088_2026.pdf",
         "date": "22Jun 2026",
-        "refNumber": "Attachment 1: Trading Arrangements of E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETFpdfAttachment 2: Details of market making obligations of E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETFpdf  CT/088/26",
+        "refNumber": "Attachment 1: Trading Arrangements of E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETFpdfAttachment 2: Details of market making obligations of E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETFpdfCT/088/26",
         "departmentCode": "SEHK"
     },
     {
@@ -523,6 +614,146 @@
         "date": "22Jun 2026",
         "refNumber": "PT/NIS/CCASS/187/2026",
         "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_186_2026.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "PT/NIS/CCASS/186/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Margin Ratespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_162_2026.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "ORM/CRC/162/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "China Ecotourism Group Limited (Stock Code: 1371) - Proposal of Capital Reorganisation and Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_185_2026.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "PT/NIS/CCASS/185/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Gaodi Holdings Limited (Stock Code : 1676) - Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_184_2026.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "PT/NIS/CCASS/184/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of Good Fellow Healthcare Holdings Limited (stock code 8143) on OTP-C for its 5-into-1 Share Consolidation on 24 June 2026 (Cancelled)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026085_e.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "PT/NIS/SMD/085/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of Reach New Holdings Limited (stock code 8471) on OTP-C for its 20-into-1 Share Consolidation on 23 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026084_e.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "PT/NIS/SMD/084/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Hong Kong Investor Identification Regime (HKIDR) - Input Format for BCAN Tagging, Client Type Classification in BCAN-CID Mapping File, Update of Frequently Asked Questions (FAQ) and File Interface Specificationpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT08926E.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "CT/089/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_153_26_ec.pdf",
+        "date": "22Jun 2026",
+        "refNumber": "MO/DT/153/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "New USD/CNH Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_152_26_ec.pdf",
+        "date": "19Jun 2026",
+        "refNumber": "MO/DT/152/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Optional Practice Session for the Trading Rules Amendments of Shanghai Stock Exchange and Shenzhen Stock Exchangepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT08626E.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "Attachment 1: Registration Form for Shanghai Stock Exchange and Shenzhen Stock Exchange Trading Rules Amendments Practice SessionpdfCT/086/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Introduction of Market-Wide Trading Fee Discount and Incentive Programs for 5-Year China Government Bond Futures in August 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/20260618_MKS_FIC_005_26_E.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "FIC/005/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Introduction of the 5-Year China Government Bond Futurespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/20260618_MKS_FIC_004_26_E.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "FIC/004/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Pilot Project to Enable Digital Payment Solution for Derivatives After-Hours Trading: Briefing and Invitation of Participationpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_CLR_058_2026.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "PT/CLR/HKCC/058/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Stock Admission - E Fund (HK) FTSE MPF China A ETF and E Fund (HK) FTSE MPF Hong Kong Equity ETF (Stock Code: 3509 & 3579)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_183_2026.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "PT/NIS/CCASS/183/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Global Bio-chem Technology Group Company Limited (Stock Code: 809) - Proposal of Share Consolidation and Change in Board Lot Sizepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_182_2026.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "PT/NIS/CCASS/182/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "CLAIM NOTICE FOR THE FIDELITY FUND AND GUARANTEE SCHEMEpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_008_2026.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "Claim Form - Claims Against the Fidelity FundpdfPA/008/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "VOLUNTARY CESSATION OF TRADINGpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_007_2026.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "PA/007/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_151_26_ec.pdf",
+        "date": "18Jun 2026",
+        "refNumber": "MO/DT/151/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Suspension of CCASS Services on the following Saturdayspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SET_019_2026.pdf",
+        "date": "17Jun 2026",
+        "refNumber": "PT/SCS/CCASS/019/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Trading Arrangements of CSOP KOSPI 200 ETFpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_085_2026.pdf",
+        "date": "17Jun 2026",
+        "refNumber": "Attachment 1: Trading Arrangements of CSOP KOSPI 200 ETFpdfAttachment 2: Details of market making obligations of CSOP KOSPI 200 ETFpdfCT/085/26",
+        "departmentCode": "SEHK"
     },
     {
         "linkText": "Stock Admission - New Listing of Securitiespdf",
@@ -686,17 +917,17 @@
         "departmentCode": "SEHK"
     },
     {
-        "linkText": "New USD/CNH Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_148_26_ec.pdf",
-        "date": "15Jun 2026",
-        "refNumber": "MO/DT/148/26",
-        "departmentCode": "HKFE"
-    },
-    {
         "linkText": "New Index Options Strike Seriespdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_147_26_ec.pdf",
         "date": "15Jun 2026",
         "refNumber": "MO/DT/147/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "New USD/CNH Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_148_26_ec.pdf",
+        "date": "15Jun 2026",
+        "refNumber": "MO/DT/148/26",
         "departmentCode": "HKFE"
     },
     {
@@ -733,6 +964,76 @@
         "date": "12Jun 2026",
         "refNumber": "PT/NIS/SMD/079/2026",
         "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_146_26_ec.pdf",
+        "date": "12Jun 2026",
+        "refNumber": "MO/DT/146/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_170_2026.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "PT/NIS/CCASS/170/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Margin Ratespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_157_2026.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "ORM/CRC/157/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of MTT Group Holdings Limited (stock code 2350) on OTP-C for its 2-for-5 Rights Issue on Ex-Rights Date, 15 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026078_e.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "PT/NIS/SMD/078/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Display of Previous Closing Price of Samsonite Group S.A. (stock code 1910) on OTP-C for its Dividend of approximately US$0.1009 per share (subject to change) on Ex-Dividend Date, 15 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026077_e.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "PT/NIS/SMD/077/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of Gaodi Holdings Limited (stock code 1676) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 15 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026076_e.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "PT/NIS/SMD/076/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of WT Group Holdings Limited (stock code 8422) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 12 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026075_e.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "PT/NIS/SMD/075/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_145_26_ec.pdf",
+        "date": "11Jun 2026",
+        "refNumber": "MO/DT/145/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Margin Ratespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_155_2026.pdf",
+        "date": "10Jun 2026",
+        "refNumber": "ORM/CRC/155/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_169_2026.pdf",
+        "date": "10Jun 2026",
+        "refNumber": "PT/NIS/CCASS/169/2026",
+        "departmentCode": "HKSCC"
     },
     {
         "linkText": "Volatility Scan Range Update for Weekly Stock Optionspdf",
@@ -810,6 +1111,69 @@
         "date": "08Jun 2026",
         "refNumber": "MO/DT/141/26",
         "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_167_2026.pdf",
+        "date": "05Jun 2026",
+        "refNumber": "PT/NIS/CCASS/167/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_166_2026.pdf",
+        "date": "05Jun 2026",
+        "refNumber": "PT/NIS/CCASS/166/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of APAC Resources Limited (stock code 1104) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 9 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026074_e.pdf",
+        "date": "05Jun 2026",
+        "refNumber": "PT/NIS/SMD/074/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_139_26_ec.pdf",
+        "date": "05Jun 2026",
+        "refNumber": "MO/DT/139/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Adjustment of the Daily Limit for the Acceptance of HKD or USD as Collateral for the Early Release of China Connect Securities that are Securities on-holdpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/GRM_FRM_001_HKSCC-Circular_CCDailyLimit_20260604_Eng.pdf",
+        "date": "04Jun 2026",
+        "refNumber": "GRM/FRM/001/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Increase of Notional Exchange Risk Near Limits for USD/CNH CCS and DFX Contractspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/OTCC-Circular_Increase-of-Notional-Exchange-Risk-Limits_20260604_Eng.pdf",
+        "date": "04Jun 2026",
+        "refNumber": "GRM/QRM/005/2026",
+        "departmentCode": "OTC Clear"
+    },
+    {
+        "linkText": "Change of Underlying Stock Short Name of the Hua Hong Grace Semiconductor Limited Stock Option Contractpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_138_26_e.pdf",
+        "date": "04Jun 2026",
+        "refNumber": "MO/DT/138/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Renminbi (RMB) Haircutpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CM2_018_2026.pdf",
+        "date": "03Jun 2026",
+        "refNumber": "PT/SCS/CCASS/018/2026",
+        "departmentCode": "HKSCCStock Connect"
+    },
+    {
+        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_165_2026.pdf",
+        "date": "03Jun 2026",
+        "refNumber": "PT/NIS/CCASS/165/2026",
+        "departmentCode": "HKSCC"
     },
     {
         "linkText": "Margin Ratespdf",
@@ -952,11 +1316,284 @@
         "departmentCode": "SEHK"
     },
     {
+        "linkText": "Delisting of SHANGHAI PROSOLAR RESOURCE DEVELOPMENT CO., LTD (SSE Stock Code: 600193) (CCASS Stock Code: 90193)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_163_2026.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "PT/NIS/CCASS/163/2026",
+        "departmentCode": "HKSCCStock Connect"
+    },
+    {
+        "linkText": "HKCC Participant Additional Depositpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_143_2026.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "ORM/CRC/143/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "SEOCH Reserve Fund Variable Contributionspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_142_2026.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "ORM/CRC/142/2026",
+        "departmentCode": "SEOCH"
+    },
+    {
+        "linkText": "Notification of Routine Recalculation of Rates and FX Guarantee Fundpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Jun_2026_144.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "ORM/CRC/144/2026",
+        "departmentCode": "OTC Clear"
+    },
+    {
+        "linkText": "Monthly Review on Guarantee Fundpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_145_2026.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "ORM/CRC/145/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
         "linkText": "Display of Adjusted Previous Closing Price of China Financial International Investments Limited (stock code 721) on OTP-C for its 5-into-1 Share Consolidation on 2 June 2026pdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026071_e.pdf",
         "date": "01Jun 2026",
         "refNumber": "PT/NIS/PMI/071/2026",
         "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Changes to the List of Volatility Control Mechanism (VCM) Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_080_2026.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "Attachment: Detailed Changes to List of VCM Securities (Effective 8 June 2026)pdfCT/080/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_135_26_ec.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "MO/DT/135/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Derivatives Market Holiday Schedule and Expiry Days of Monthly and Weekly Stock Options for Year 2027pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_133_26_e1.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "MO/DT/133/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Derivatives Markets Holiday Schedule, Last Trading Days/Expiry Days and Final Settlement Days for Year 2027pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_134_26_e.pdf",
+        "date": "01Jun 2026",
+        "refNumber": "MO/DT/134/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Inter-commodity Spreadpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_141_2026.pdf",
+        "date": "29May 2026",
+        "refNumber": "ORM/CRC/141/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Margin Ratespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_140_2026.pdf",
+        "date": "29May 2026",
+        "refNumber": "ORM/CRC/140/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_162_2026.pdf",
+        "date": "29May 2026",
+        "refNumber": "PT/NIS/CCASS/162/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Orion Cash Platform (OCP): Updates on New Clearing Services, Introduction of Developer Corner and Publication of User Guidespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/ce_HKSCC_017_Eng_2026.pdf",
+        "date": "29May 2026",
+        "refNumber": "PT/CLR/CCASS/017/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Rescheduling of Adjustment to Display of Underlying Closing Prices of Stock Options in DCASS and Specified Reportspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_056_Eng_2026.pdf",
+        "date": "29May 2026",
+        "refNumber": "PT/CLR/SEOCH/056/2026",
+        "departmentCode": "SEOCH"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of China Information Technology Development Limited (stock code 8178) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 1 June 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026070_e.pdf",
+        "date": "29May 2026",
+        "refNumber": "PT/NIS/PMI/070/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_132_26_ec.pdf",
+        "date": "29May 2026",
+        "refNumber": "MO/DT/132/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "RESCHEDULING OF THE ADJUSTMENT TO DISPLAY OF UNDERLYING CLOSING PRICES OF STOCK OPTIONS DAILY MARKET REPORT (“DMR”) pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_131_26_e.pdf",
+        "date": "29May 2026",
+        "refNumber": "MO/DT/131/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Margin Ratespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_138_2026.pdf",
+        "date": "28May 2026",
+        "refNumber": "ORM/CRC/138/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "Trading Arrangements of ChinaAMC Digital Gold ETFpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_076_2026.pdf",
+        "date": "28May 2026",
+        "refNumber": "Attachment 1: Trading Arrangements ChinaAMC Digital Gold ETFpdfAttachment 2: Details of market making obligations of ChinaAMC Digital Gold ETFpdfCT/076/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Installation of Google Chrome Browser for HKATS Online and HKATS Risk Functionspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/OPS_CS_005_26_e.pdf",
+        "date": "28May 2026",
+        "refNumber": "OPS/CS/005/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Installation of Google Chrome Browser for HKATS Online and HKATS Risk Functionspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/OPS_CS_005_26_e.pdf",
+        "date": "28May 2026",
+        "refNumber": "OPS/CS/005/26",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/028_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+        "date": "28May 2026",
+        "refNumber": "LSD/028/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\npdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/026_26_HKFEUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+        "date": "28May 2026",
+        "refNumber": "LSD/026/2026",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Installation of Google Chrome Browser for DCASS Onlinepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_055_Eng_2026.pdf",
+        "date": "28May 2026",
+        "refNumber": "PT/CLR/SEOCH/055/2026",
+        "departmentCode": "SEOCH"
+    },
+    {
+        "linkText": "Installation of Google Chrome Browser for DCASS Onlinepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_054_Eng_2026.pdf",
+        "date": "28May 2026",
+        "refNumber": "PT/CLR/HKCC/054/2026",
+        "departmentCode": "HKCC"
+    },
+    {
+        "linkText": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/027_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+        "date": "28May 2026",
+        "refNumber": "LSD_027_2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Installation of Google Chrome Browser for VaR Onlinepdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_139_2026_.pdf",
+        "date": "28May 2026",
+        "refNumber": "ORM/CRC/139/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_130_26_ec.pdf",
+        "date": "28May 2026",
+        "refNumber": "MO/DT/130/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Introduction of Market-Wide Trading Fee Discount and Incentive Programs for Gold Futures in July 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/20260527_MKS_FIC_003_26_E.pdf",
+        "date": "27May 2026",
+        "refNumber": "FIC/003/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "Admission of the Shares of ChinaAMC Digital Gold ETF to CCASS as a Multi-counter Eligible Security - HKD Counter (stock code: 3418) (Domain Stock Code) - USD Counter (stock code: 9418) - RMB Counter (stock code: 83418) (“ChinaAMC ETFs”)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_161_2026.pdf",
+        "date": "27May 2026",
+        "refNumber": "PT/NIS/CCASS/161/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Stock Admission - New Listing of Securitiespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_159_2026.pdf",
+        "date": "27May 2026",
+        "refNumber": "PT/NIS/CCASS/159/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "Xinming China Holdings Limited (Stock Code: 2699) - Proposal of Share Consolidationpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_160_2026.pdf",
+        "date": "27May 2026",
+        "refNumber": "PT/NIS/CCASS/160/2026",
+        "departmentCode": "HKSCC"
+    },
+    {
+        "linkText": "CLAIM NOTICE FOR THE FIDELITY FUND AND GUARANTEE SCHEMEpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_006_2026.pdf",
+        "date": "27May 2026",
+        "refNumber": "Claim Form - Claims Against the Fidelity FundpdfPA/006/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "VOLUNTARY CESSATION OF TRADINGpdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_005_2026.pdf",
+        "date": "27May 2026",
+        "refNumber": "PA/005/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "Display of Adjusted Previous Closing Price of Hong Wei (Asia) Holdings Company Limited (stock code 8191) on OTP-C for its 4-for-1 Rights Issue on Ex-Rights Date, 28 May 2026pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026069_e.pdf",
+        "date": "27May 2026",
+        "refNumber": "PT/NIS/PMI/069/2026",
+        "departmentCode": "SEHK"
+    },
+    {
+        "linkText": "New Index Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_129_26_ec.pdf",
+        "date": "27May 2026",
+        "refNumber": "MO/DT/129/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "SSE-Listed SHANGHAI JUNDAO LIQUOR ENT DEV (*ST) (SSE Security Code: 600696)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_075_2026.pdf",
+        "date": "26May 2026",
+        "refNumber": "CT/075/26",
+        "departmentCode": "SEHKStock Connect"
+    },
+    {
+        "linkText": "SSE-Listed CHINA REFORM CULTURE HOLDINGS (*ST) (SSE Security Code: 600636)pdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_074_2026.pdf",
+        "date": "26May 2026",
+        "refNumber": "CT/074/26",
+        "departmentCode": "SEHKStock Connect"
+    },
+    {
+        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_155_2026.pdf",
+        "date": "26May 2026",
+        "refNumber": "PT/NIS/CCASS/155/2026",
+        "departmentCode": "HKSCC"
     },
     {
         "linkText": "Delisting of CHINA REFORM CULTURE HOLDINGS CO., LTD. (SSE Stock Code: 600636) (CCASS Stock Code: 90636)(2 Jul: Cancelled and superseded by Ref. No. PT/NIS/CCASS/207/2026)pdf",
@@ -1001,17 +1638,17 @@
         "departmentCode": "SEHK"
     },
     {
-        "linkText": "New USD/CNH Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_128_26_ec.pdf",
-        "date": "26May 2026",
-        "refNumber": "MO/DT/128/26",
-        "departmentCode": "HKFE"
-    },
-    {
         "linkText": "New Index Options Strike Seriespdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_127_26_ec.pdf",
         "date": "26May 2026",
         "refNumber": "MO/DT/127/26",
+        "departmentCode": "HKFE"
+    },
+    {
+        "linkText": "New USD/CNH Options Strike Seriespdf",
+        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_128_26_ec.pdf",
+        "date": "26May 2026",
+        "refNumber": "MO/DT/128/26",
         "departmentCode": "HKFE"
     },
     {
@@ -1025,7 +1662,7 @@
         "linkText": "Changes of Designated Securities for Short Sellingpdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_073_2026.pdf",
         "date": "22May 2026",
-        "refNumber": "Attachment: List of Additional and Deleted Designated Securities (Effective 29 May 2026)pdf  CT/073/26",
+        "refNumber": "Attachment: List of Additional and Deleted Designated Securities (Effective 29 May 2026)pdfCT/073/26",
         "departmentCode": "SEHK"
     },
     {
@@ -1088,7 +1725,7 @@
         "linkText": "HKEX Backbone Network Upgrade for Securities Market Systems - Market Rehearsals Updatepdf",
         "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT07226E.pdf",
         "date": "19May 2026",
-        "refNumber": "Attachment 1: Activity Rundowns for Upgrade of HKEX Backbone Network for Securities Market Systems Market Rehearsal 2 (MR2) on 30 May 2026pdf  CT/072/26",
+        "refNumber": "Attachment 1: Activity Rundowns for Upgrade of HKEX Backbone Network for Securities Market Systems Market Rehearsal 2 (MR2) on 30 May 2026pdfCT/072/26",
         "departmentCode": "SEHK"
     },
     {
@@ -1111,642 +1748,5 @@
         "date": "19May 2026",
         "refNumber": "PT/NIS/CCASS/149/2026",
         "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of i.century Holding Limited (stock code 8507) on OTP-C for its 1-for-1 Rights Issue on Ex-Rights Date, 21 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026064_e.pdf",
-        "date": "19May 2026",
-        "refNumber": "PT/NIS/PMI/064/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Zhongshen Jianye Holding Limited (stock code 2503) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 20 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026063_e.pdf",
-        "date": "19May 2026",
-        "refNumber": "PT/NIS/PMI/063/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Standardization of Date Format in DCASS Risk Management Reports (including Risk Parameter Files)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_136_2026.pdf",
-        "date": "18May 2026",
-        "refNumber": "ORM/CRC/136/2026",
-        "departmentCode": "SEOCH"
-    },
-    {
-        "linkText": "USD/CNH Cross Currency Swap Multilateral Compression Cycle on 25th June 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCO_May_2026_005.pdf",
-        "date": "18May 2026",
-        "refNumber": "OTCO/005/2026",
-        "departmentCode": "OTC Clear"
-    },
-    {
-        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_148_2026.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/CCASS/148/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Stock Admission - New Listing of Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_147_2026.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/CCASS/147/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Capital Finance Holdings Limited (Stock Code : 8239) - Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_146_2026.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/CCASS/146/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Citychamp Watch & Jewellery Group Limited (stock code 256) on OTP-C for its 1-for-3 Rights Issue on Ex-Rights Date, 20 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026062_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/PMI/062/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Madison Holdings Group Limited (stock code 8057) on OTP-C for its 3-for-2 Rights Issue on Ex-Rights Date, 19 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026061_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/PMI/061/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of SoftMedx Healthcare Limited (stock code 648) on OTP-C for its 20-into-1 Share Consolidation on 19 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026060_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/PMI/060/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Alco Holdings Limited (stock code 328) on OTP-C for its 4-for-1 Rights Issue on Ex-Rights Date, 19 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026059_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "PT/NIS/PMI/059/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "New USD/CNH Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_123_26_ec.pdf",
-        "date": "18May 2026",
-        "refNumber": "MO/DT/123/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_122_26_ec.pdf",
-        "date": "18May 2026",
-        "refNumber": "MO/DT/122/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Alibaba Health Information Technology Ltd. Stock Option Contracts - Special Dividendpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_121_26_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "MO/DT/121/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Alibaba Health Information Technology Ltd. Stock Futures Contracts - Special Dividendpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_120_26_e.pdf",
-        "date": "18May 2026",
-        "refNumber": "MO/DT/120/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Changes of SZSE-Listed China Connect Securities List, List of Eligible SZSE Securities for Margin Trading and List of Eligible SZSE Securities for Short Sellingpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_071_2026.pdf",
-        "date": "15May 2026",
-        "refNumber": "CT/071/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Sellingpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_070_2026.pdf",
-        "date": "15May 2026",
-        "refNumber": "CT/070/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "Margin Ratespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_135_2026.pdf",
-        "date": "15May 2026",
-        "refNumber": "ORM/CRC/135/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "GoFintech Quantum Innovation Limited (Stock Code : 290) - Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_145_2026.pdf",
-        "date": "15May 2026",
-        "refNumber": "PT/NIS/CCASS/145/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Stress Scenarios Revision in Initial Margin Modelpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/OTCC_GRM_QRM_004_FX-Stress-Scenarios-Revision-in-Initial-Margin-Model-(Eng).pdf",
-        "date": "15May 2026",
-        "refNumber": "GRM/QRM/004/2026",
-        "departmentCode": "OTC Clear"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of NIU Holdings Limited (stock code 8619) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 18 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026058_e.pdf",
-        "date": "15May 2026",
-        "refNumber": "PT/NIS/PMI/058/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Madison Holdings Group Limited (stock code 8057) on OTP-C for its 10-into-1 Share Consolidation on 18 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026057_e.pdf",
-        "date": "15May 2026",
-        "refNumber": "PT/NIS/PMI/057/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_119_26_ec.pdf",
-        "date": "15May 2026",
-        "refNumber": "MO/DT/119/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Trading Arrangements of Global X Gold Covered Call Active ETFpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_069_2026.pdf",
-        "date": "14May 2026",
-        "refNumber": "Attachment 1: Trading Arrangements of Global X Gold Covered Call Active ETFpdfAttachment 2: Details of market making obligations of Global X Gold Covered Call Active ETFpdf  CT/069/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Trading Arrangements of Hang Seng FTSE Hong Kong Equity ETFpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_068_2026.pdf",
-        "date": "14May 2026",
-        "refNumber": "Attachment 1: Trading Arrangements of Hang Seng FTSE Hong Kong Equity ETFpdfAttachment 2: Details of market making obligations of Hang Seng FTSE Hong Kong Equity ETFpdf  CT/068/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Stock Admission - New Listing of Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_143_2026.pdf",
-        "date": "14May 2026",
-        "refNumber": "PT/NIS/CCASS/143/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Admission of the Shares of Global X Gold Covered Call Active ETF to CCASS as a Multi-counter Eligible Security - HKD trading counter (Stock Code: 3533) (Domain Stock Code) - USD trading counter (Stock Code: 41533)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_142_2026.pdf",
-        "date": "13May 2026",
-        "refNumber": "PT/NIS/CCASS/142/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Stock Admission – Hang Seng FTSE Hong Kong Equity ETF  (Stock Code: 3444) (“Hang Seng Investment Funds Series IV”)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_141_2026.pdf",
-        "date": "13May 2026",
-        "refNumber": "PT/NIS/CCASS/141/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of China Health Technology Group Holding Company Limited (stock code 1069) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 14 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026056_e.pdf",
-        "date": "13May 2026",
-        "refNumber": "PT/NIS/PMI/056/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "SoftMedx Healthcare Limited (Stock Code: 648) - Proposal of Share Consolidation and Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_140_2026.pdf",
-        "date": "12May 2026",
-        "refNumber": "PT/NIS/CCASS/140/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Suspension of CCASS Services on the following Saturdayspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SET_017_2026.pdf",
-        "date": "12May 2026",
-        "refNumber": "PT/SCS/CCASS/017/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Sanergy Group Limited (stock code 2459) on OTP-C for its 10-into-1 Share Consolidation on 14 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026055_e.pdf",
-        "date": "12May 2026",
-        "refNumber": "PT/NIS/PMI/055/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_118_26_ec.pdf",
-        "date": "12May 2026",
-        "refNumber": "MO/DT/118/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Stock Admission - New Listing of Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_139_2026.pdf",
-        "date": "11May 2026",
-        "refNumber": "PT/NIS/CCASS/139/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Madison Holdings Group Limited (Stock Code: 8057) - Proposal of Share Consolidationpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_138_2026.pdf",
-        "date": "11May 2026",
-        "refNumber": "PT/NIS/CCASS/138/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Adjustment to Display of Underlying Closing Prices of Stock Options in DCASS and Specified Reportspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_051_Eng_2026.pdf",
-        "date": "08May 2026",
-        "refNumber": "PT/CLR/SEOCH/051/2026",
-        "departmentCode": "SEOCH"
-    },
-    {
-        "linkText": "Margin Ratespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_134_2026.pdf",
-        "date": "08May 2026",
-        "refNumber": "ORM/CRC/134/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "ADJUSTMENT TO THE DISPLAY OF UNDERLYING CLOSING PRICES OF STOCK OPTIONS DAILY MARKET REPORT (“DMR”) pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_116_26_e.pdf",
-        "date": "08May 2026",
-        "refNumber": "MO/DT/116/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_117_26_e.pdf",
-        "date": "08May 2026",
-        "refNumber": "MO/DT/117/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Trading Arrangements of Hang Seng HSCEI Covered Call Active ETF and Hang Seng TECH Covered Call Active ETFpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_067_2026.pdf",
-        "date": "07May 2026",
-        "refNumber": "Attachment 1: Trading Arrangements of Hang Seng HSCEI Covered Call Active ETF and Hang Seng TECH Covered Call Active ETFpdfAttachment 2: Details of market making obligations of Hang Seng HSCEI Covered Call Active ETF and Hang Seng TECH Covered Call Active ETFpdf  CT/067/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Update on Shanghai Stock Exchange (“SSE”) and Shenzhen Stock Exchange (“SZSE”) Trading Rules Amendments and SSE System Upgradepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT06626E.pdf",
-        "date": "07May 2026",
-        "refNumber": "CT/066/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "United Nations Sanctions (Somalia) Regulation 2019 (Amendment) Regulation 2026 / United Nations Sanctions (Sudan) Regulation 2013 (Cap. 537BF)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/022_26_HKFEUNSanctions_Somalia_Sudan_e.pdf",
-        "date": "07May 2026",
-        "refNumber": "LSD/022/2026",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "United Nations Sanctions (Somalia) Regulation 2019 (Amendment) Regulation 2026 / United Nations Sanctions (Sudan) Regulation 2013 (Cap. 537BF)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/023_26_HKSCCUNSanctions_Somalia_Sudan_e.pdf",
-        "date": "07May 2026",
-        "refNumber": "LSD/023/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "United Nations Sanctions (Somalia) Regulation 2019 (Amendment) Regulation 2026 / United Nations Sanctions (Sudan) Regulation 2013 (Cap. 537BF)\npdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/024_26_SEHKUNSanctions_Somalia_Sudan_e.pdf",
-        "date": "07May 2026",
-        "refNumber": "LSD/024/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Stock Admission - New Listing of Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_136_2026.pdf",
-        "date": "07May 2026",
-        "refNumber": "PT/NIS/CCASS/136/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Sanergy Group Limited (Stock Code: 2459) - Proposal of Capital Reorganisation and Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_137_2026.pdf",
-        "date": "07May 2026",
-        "refNumber": "PT/NIS/CCASS/137/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Hang Pin Living Technology Company Limited (stock code 1682) on OTP-C for its 1-for-1 Rights Issue on Ex-Rights Date, 8 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026054_e.pdf",
-        "date": "07May 2026",
-        "refNumber": "PT/NIS/PMI/054/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Pricepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_114_26_e.pdf",
-        "date": "07May 2026",
-        "refNumber": "MO/DT/114/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_115_26_ec.pdf",
-        "date": "07May 2026",
-        "refNumber": "MO/DT/115/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Renminbi (RMB) Haircutpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CM2_015_2026.pdf",
-        "date": "06May 2026",
-        "refNumber": "PT/SCS/CCASS/015/2026",
-        "departmentCode": "HKSCCStock Connect"
-    },
-    {
-        "linkText": "Stock Admission – Hang Seng HSCEI Covered Call Active ETF  (Stock Code: 3519) (“Hang Seng Investment Funds Series IV”)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_135_2026.pdf",
-        "date": "06May 2026",
-        "refNumber": "PT/NIS/CCASS/135/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Stock Admission – Hang Seng TECH Covered Call Active ETF  (Stock Code: 3589) (“Hang Seng Investment Funds Series IV”)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_134_2026.pdf",
-        "date": "06May 2026",
-        "refNumber": "PT/NIS/CCASS/134/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_113_26_ec.pdf",
-        "date": "06May 2026",
-        "refNumber": "MO/DT/113/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Collateral Haircut Adjustmentpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_132_2026.pdf",
-        "date": "05May 2026",
-        "refNumber": "ORM/CRC/132/2026",
-        "departmentCode": "SEOCH"
-    },
-    {
-        "linkText": "Collateral Haircut Adjustmentpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_131_2026.pdf",
-        "date": "05May 2026",
-        "refNumber": "ORM/CRC/131/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "Routine Collateral Haircut Review and Adjustmentpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_May-2026_133.pdf",
-        "date": "05May 2026",
-        "refNumber": "ORM/CRC/133/2026",
-        "departmentCode": "OTC Clear"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Flydoo Technology Holding Limited (stock code 8069) on OTP-C for its 20-into-1 Share Consolidation on 6 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026053_e.pdf",
-        "date": "05May 2026",
-        "refNumber": "PT/NIS/PMI/053/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Discontinuation of the Eligibility of CCASS Stockspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_133_2026.pdf",
-        "date": "04May 2026",
-        "refNumber": "PT/NIS/CCASS/133/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "SEOCH Reserve Fund Variable Contributionspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_130_2026.pdf",
-        "date": "04May 2026",
-        "refNumber": "ORM/CRC/130/2026",
-        "departmentCode": "SEOCH"
-    },
-    {
-        "linkText": "Monthly Review on Guarantee Fundpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_129_2026.pdf",
-        "date": "04May 2026",
-        "refNumber": "ORM/CRC/129/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "HKCC Participant Additional Depositpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_128_2026.pdf",
-        "date": "04May 2026",
-        "refNumber": "ORM/CRC/128/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of Easyhold Group Holdings Limited (stock code 1703) on OTP-C for its 10-into-1 Share Consolidation on 30 April 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026050_e.pdf",
-        "date": "29Apr 2026",
-        "refNumber": "PT/NIS/PMI/050/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_108_26_ec.pdf",
-        "date": "29Apr 2026",
-        "refNumber": "MO/DT/108/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Changes of SZSE-Listed China Connect Securities List, List of Eligible SZSE Securities for Margin Trading and List of Eligible SZSE Securities for Short Sellingpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_061_2026.pdf",
-        "date": "28Apr 2026",
-        "refNumber": "CT/061/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Sellingpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_060_2026.pdf",
-        "date": "28Apr 2026",
-        "refNumber": "CT/060/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "Flydoo Technology Holding Limited (Stock Code: 8069) - Proposal of Share Consolidationpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_130_2026.pdf",
-        "date": "28Apr 2026",
-        "refNumber": "PT/NIS/CCASS/130/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_107_26_ec.pdf",
-        "date": "28Apr 2026",
-        "refNumber": "MO/DT/107/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Special Arrangement for Acceptance of HKD or USD as Collateral for the Early Release of China Connect Securities that are Securities-on-hold for the Shanghai and Shenzhen holidayspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CM2_014_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/SCS/CCASS/014/2026",
-        "departmentCode": "HKSCCStock Connect"
-    },
-    {
-        "linkText": "Download and Upgrade of Google Chrome Browser for HKATS Online and HKATS Risk Functionspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/OPS_CS_004_26_e.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "OPS/CS/004/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Download and Upgrade of Google Chrome Browser for HKATS Online and HKATS Risk Functionspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/OPS_CS_004_26_e.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "OPS/CS/004/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Download and Upgrade of Google Chrome Browser for DCASS Onlinepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_049_Eng_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/CLR/HKCC/049/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "Download and Upgrade of Google Chrome Browser for DCASS Onlinepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_050_Eng_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/CLR/SEOCH/050/2026",
-        "departmentCode": "SEOCH"
-    },
-    {
-        "linkText": "Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Sellingpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_059_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "CT/059/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "Introduction of New Weekly Stock Options",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/EQD_03_26_e.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "EQD/03/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Margin Ratespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_123_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "ORM/CRC/123/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "Television Broadcasts Limited (Stock Code: 511) - Annual General Meeting to be held on 27 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_129_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/NIS/CCASS/129/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Television Broadcasts Limited (Stock Code: 511) - Annual General Meeting to be held on 27 May 2026 (for Investor Participants only)pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_128_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/NIS/CCASS/128/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Ximei Resources Holding Limited (Stock Code : 9936) - Change in Board Lot Sizepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_127_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/NIS/CCASS/127/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Download and Upgrade of Google Chrome Browser for VaR Onlinepdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_122_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "ORM/CRC/122/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Display of Adjusted Previous Closing Price of China 33 Media Group Limited (stock code 8087) on OTP-C for its 1-into-5 Share Subdivision on 28 April 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/PMI2026049_e.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/NIS/PMI/049/2026",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "After-Hours Trading Arrangement on 25 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_105_26_e.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "MO/DT/105/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_106_26_ec.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "MO/DT/106/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Clearing Arrangement on 25 May 2026pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_048_Eng_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "PT/CLR/HKCC/048/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "Changes to the List of Volatility Control Mechanism (VCM) Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_058_2026.pdf",
-        "date": "27Apr 2026",
-        "refNumber": "Attachment: Detailed Changes to List of VCM Securities (Effective 4 May 2026)pdf  CT/058/26",
-        "departmentCode": "SEHK"
-    },
-    {
-        "linkText": "Amendments to the Clearing Rules and Clearing Procedures of OTC Clearing Hong Kong Limited pdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/021_26_OTC_Clear_Rules_Procedures_Bulk-run-normalization.pdf",
-        "date": "24Apr 2026",
-        "refNumber": "LSD/021/2026",
-        "departmentCode": "OTC Clear"
-    },
-    {
-        "linkText": "Stock Admission - New Listing of Securitiespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_126_2026.pdf",
-        "date": "24Apr 2026",
-        "refNumber": "PT/NIS/CCASS/126/2026",
-        "departmentCode": "HKSCC"
-    },
-    {
-        "linkText": "Incentive Programs for Currency Derivatives Productspdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/20260423_MKS_FIC_002_26_E.pdf",
-        "date": "24Apr 2026",
-        "refNumber": "FIC/002/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Risk Management Arrangements in respect of Labour Daypdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_121_2026.pdf",
-        "date": "24Apr 2026",
-        "refNumber": "ORM/CRC/121/2026",
-        "departmentCode": "HKCC"
-    },
-    {
-        "linkText": "New Index Options Strike Seriespdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_104_26_ec.pdf",
-        "date": "24Apr 2026",
-        "refNumber": "MO/DT/104/26",
-        "departmentCode": "HKFE"
-    },
-    {
-        "linkText": "Changes of SSE-Listed China Connect Securities Listpdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_057_2026.pdf",
-        "date": "23Apr 2026",
-        "refNumber": "CT/057/26",
-        "departmentCode": "SEHKStock Connect"
-    },
-    {
-        "linkText": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (Afghanistan) Regulation 2022 (Cap. 537CN)\npdf",
-        "link": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/018_26_HKFEUNSanctions_AntiTerrorism_Measures_Afghanistan_e.pdf",
-        "date": "23Apr 2026",
-        "refNumber": "LSD/018/2026",
-        "departmentCode": "HKFE"
     }
 ]
