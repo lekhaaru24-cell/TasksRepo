@@ -1,83 +1,39 @@
-//Scrapping data from urls
+//to count total size, folders and files-File systems
  
-import axios from "axios";
-import * as cheerio from "cheerio";
+const fs = require("fs");
+const path = require("path");
  
-const arr = [
-  "https://www.fca.org.uk/news/press-releases/commodity-traders-offer-one-million-pounds-crisis-fund-fca-competition-probe",
-  "https://www.fca.org.uk/news/press-releases/fca-consults-proposals-support-strong-consistent-standards-sipp-market",
-  "https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time",
-  "https://www.fca.org.uk/news/press-releases/fca-decides-fine-carlos-ricardo-fuenmayor-disclosure-failures",
-  "https://www.fca.org.uk/news/press-releases/court-orders-appointment-special-administrators-euro-exchange-securities-uk-limited",
-  "https://www.fca.org.uk/news/press-releases/fca-proposals-help-more-access-mortgages",
-  "https://www.fca.org.uk/news/press-releases/fca-secures-confiscation-order-against-ponzi-scheme-fraudster",
-  "https://www.fca.org.uk/news/press-releases/consumers-warned-about-misleading-car-finance-money-tips-claims-ads",
-  "https://www.fca.org.uk/news/press-releases/simpler-climate-reporting-rules-could-save-firms-20m-annually",
-  "https://www.fca.org.uk/news/press-releases/fca-imposes-requirements-euro-exchange-securities-uk-limited-and-interim-managers-appointed-court"
-];
+function getFolderInfo(folderPath) {
+    let totalSize = 0;
+    let fileCount = 0;
+    let folderCount = 0;
  
-const results = [];
+    const items = fs.readdirSync(folderPath, { withFileTypes: true });
+    console.log(items);
+    for (const item of items) {
+        const fullPath = path.join(folderPath, item.name);
  
-for (const url of arr) {
-  try {
-    const response = await axios.get(url, {
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
-        "Accept":
-          "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-      }
-    });
+        if (item.isFile()) {
+            const stats = fs.statSync(fullPath);
+            totalSize += stats.size;
+            fileCount++;
+        }
  
-    const $ = cheerio.load(response.data);
- 
-    // Title from visible page
-    const title = $("h1").first().text().trim() || $("title").text().trim();
- 
-    // Extract ONLY visible article paragraphs
-    let content = $("article p")
-      .map((_, el) => $(el).text().trim())
-      .get()
-      .join(" ");
- 
-    // fallback if article structure is different
-    if (!content || content.length < 50) {
-      content = $("main p")
-        .map((_, el) => $(el).text().trim())
-        .get()
-        .join(" ");
+        else if (item.isDirectory()) {
+            folderCount++;
+            const result = getFolderInfo(fullPath);
+            totalSize += result.totalSize;
+            fileCount += result.fileCount;
+            folderCount += result.folderCount;
+        }
     }
  
-    if (!content || content.length < 50) {
-      content = $("body p")
-        .map((_, el) => $(el).text().trim())
-        .get()
-        .join(" ");
-    }
- 
-    const shortContent = content.replace(/\s+/g, " ").slice(0, 500);
- 
-    let date =
-      $("time").first().attr("datetime") ||
-      $("time").first().text().trim();
- 
-    if (!date) {
-      date = "No date found";
-    }
- 
-    results.push({
-      url,
-      title,
-      content: shortContent,
-      date
-    });
- 
-  } catch (err) {
-    console.log("FAILED:", url);
-    console.log(err);
-  }
+    return { totalSize, fileCount, folderCount };
 }
  
-console.log("Final array:");
-console.log(results);
+const result = getFolderInfo("/Users/Lekha.DH/Documents/nodedemo");
+ 
+console.log("Total size:", result.totalSize, "bytes");
+console.log("Files:", result.fileCount);
+console.log("Folders:", result.folderCount);
  
