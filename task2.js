@@ -1,3 +1,4 @@
+// task on array methods(only using methods like every,filter,find,map,reduce,sort,some)
 const articles = [
  {
 id: 1,

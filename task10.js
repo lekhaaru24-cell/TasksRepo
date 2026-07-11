@@ -1,258 +1,120 @@
+/*This task is about advanced web scraping using Puppeteer, API interception, and HTML parsing.
+The purpose of this script is:
+Open the HKEX (Hong Kong Exchanges and Clearing) circulars webpage, 
+capture the hidden API responses that load circular data, extract useful information from the returned HTML, 
+collect 250 records, and save them into a JSON file.*/
+
 const puppeteer = require("puppeteer");
+const cheerio = require("cheerio");
 const fs = require("fs");
 
-const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+// PART 1: open the browser and navigate to the page
+async function openBrowser() {
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
 
-const PAGE_URL = "https://www.ins.gov.co/buscador-eventos/Paginas/Info-Evento.aspx";
+    await page.goto(
+        "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars?sc_lang=en",
+        { waitUntil: "networkidle2" }
+    );
 
-// Dynamically get current year and build last 3 years
-const CURRENT_YEAR = new Date().getFullYear(); 
-const SECTIONS = {
-  "Informes de Evento":  [String(CURRENT_YEAR - 2), String(CURRENT_YEAR - 1), String(CURRENT_YEAR)],
-  "Tableros de control": [String(CURRENT_YEAR)],
-  "Tableros de control de laboratorio":[String(CURRENT_YEAR - 2),String(CURRENT_YEAR-3),String(CURRENT_YEAR-4)]
-};
-
-async function openPage() {
-  const browser = await puppeteer.launch({
-    headless: true,
-    defaultViewport: null,
-    // args: ["--start-maximized", "--no-sandbox"],
-  });
-  const page = await browser.newPage();
-  // await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36");
-  await page.goto(PAGE_URL, { waitUntil: "domcontentloaded", timeout: 90000 });
-  // await wait(6000);
-  console.log("Page loaded.");
-  return { browser, page };
+    return { browser, page };
 }
 
-async function detectWebpartPrefixes(page, sections) {
-  return page.evaluate((sectionNames) => {
-    // Map WPQ number → section title
-    const wpqTitleMap = {};
-    document.querySelectorAll("[id^='WebPartWPQ'][id$='_ChromeTitle']").forEach((el) => {
-      const num   = el.id.match(/WebPartWPQ(\d+)_ChromeTitle/)?.[1];
-      const title = el.querySelector(".ms-webpart-titleText")?.innerText?.trim();
-      if (num && title) wpqTitleMap[num] = title;
+// PART 2: listen for API response and collect records
+async function collectRecords(page) {
+
+    let records = [];
+
+    // Listen for API response
+    page.on("response", async (response) => {
+        const url = response.url();
+
+        if (url.includes("DisplayNewsCentreDetailsLoad")) {
+            try {
+                const data = await response.json();
+                const html = data.d;
+                const $ = cheerio.load(html);
+
+                $(".whats_on_tdy_row").each((index, element) => {
+
+                    // Get all the text values
+                    const departmentCode = $(element).find(".whats_on_tdy_text_1 a").text().trim();
+                    const linkText       = $(element).find(".whats_on_tdy_text_2 a").text().trim();
+                    const date           = $(element).find(".whats_on_tdy_ball").text().trim();
+                    const refNumber      = $(element).find(".whats_on_tdy_text_3").text().replace("Ref Number: ","").trim();
+
+                    // Get the link
+                    let link = $(element).find(".whats_on_tdy_text_2 a").attr("href");
+
+                    // Add full URL if link is relative
+                    if (link && link.startsWith("/")) {
+                        link = "https://www.hkex.com.hk" + link;
+                    }
+
+                    // Save the record
+                    records.push({ linkText, link, date, refNumber, departmentCode });
+                    console.log("Collected:", records.length);
+
+                });
+
+            } catch (error) {
+                console.log("Response parsing error:", error.message);
+            }
+        }
     });
 
-    // Map tbody prefix → section title 
-    const map = {};
-    document.querySelectorAll("[id^='WebPartWPQ']:not([id*='_'])").forEach((el) => {
-      const num    = el.id.match(/WebPartWPQ(\d+)$/)?.[1];
-      if (!num) return;
-      const prefix = el.querySelector("tbody[id^='titl']")?.id.match(/titl(\d+)-/)?.[1];
-      if (!prefix) return;
-      const title  = wpqTitleMap[num];
-      if (title && sectionNames.includes(title)) map[prefix] = title;
-    });
+    let previousCount = 0;
+    let stuckCount = 0;
+    const maxStuckAttempts = 10;
 
-    return map;
-  }, Object.keys(sections));
-}
+    // Keep scrolling until 250 records are collected
+    while (records.length < 250) {
 
-async function expandYears(page, prefixMap, sections) {
-  await page.evaluate((pMap, sectionYears) => {
-    document.querySelectorAll("td.ms-gb:not(.ms-gb2)").forEach((td) => {
-      const prefix = td.closest("tbody")?.id.match(/titl(\d+)-/)?.[1];
-      if (!prefix || !pMap[prefix]) return;
-      const year = td.innerText.match(/(\d{4})/)?.[1];
-      if (sectionYears[pMap[prefix]].includes(year))
-        td.querySelector('a[onclick*="ExpCollGroup"]')?.click();
-    });
-  }, prefixMap, sections);
-  await wait(5000);
-  console.log("Years expanded.");
-}
+        // Scroll to the bottom of the page
+        await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
 
-async function getEventGroups(page, prefixMap, sections) {
-  const groups = await page.evaluate((pMap, sectionYears) => {
-    const groups = [];
-    document.querySelectorAll("td.ms-gb2").forEach((td) => {
-      const tbody   = td.closest("tbody");
-      if (!tbody) return;
-      const titleId = tbody.id;
-      const m = titleId.match(/titl(\d+)-(\d+)_(\d+)_$/);
-      if (!m) return;
-      const prefix  = m[1];
-      const yrIdx   = m[2];
-      const section = pMap[prefix];
-      if (!section) return;
-      const yearTd = document.getElementById(`titl${prefix}-${yrIdx}_`)?.querySelector("td.ms-gb");
-      const year   = yearTd?.innerText.match(/(\d{4})/)?.[1];
-      if (!year || !sectionYears[section].includes(year)) return;
+        // Wait for new data to load
+        await new Promise(resolve => setTimeout(resolve, 2500));
 
-      // Clean up event name
-      const eventName = td.innerText
-        .replace(/[\u00a0\u200e\u200f\u200b\ufeff]/g, " ") // remove invisible unicode chars
-        .replace(/^\s*Evento\s*:\s*/i, "")                  // remove "Evento : " prefix
-        .replace(/\s*\(\d+\)\s*$/, "")                      // remove count like "(12)"
-        .trim();
-      if (!eventName) return;
+        console.log("Current total:", records.length);
 
-      // Convert title row ID → body row ID
-      const bodyId = titleId.replace("titl", "tbod").replace(/_$/, "__");
-      groups.push({ titleId, bodyId, year, section, event: eventName });
-    });
-    return groups;
-  }, prefixMap, sections);
+        // Check if records count has increased
+        if (records.length === previousCount) {
+            stuckCount++;
+            console.log(`No new records. Attempt ${stuckCount}/${maxStuckAttempts}`);
 
-  console.log(`Found ${groups.length} event groups.`);
-  return groups;
-}
+            // Break if stuck for too long
+            if (stuckCount >= maxStuckAttempts) {
+                console.log("No more new records loading. Stopping.");
+                break;
+            }
 
-async function collectLinks(page, groups) {
-  const results = [];
-
-  for (let i = 0; i < groups.length; i++) {
-    const { titleId, bodyId, year, section, event } = groups[i];
-    process.stdout.write(`[${i + 1}/${groups.length}] ${section} / ${year} / ${event} ... `);
-
-    // Click the event toggle to expand its rows
-    await page.evaluate((id) => {
-      document.querySelector(`#${CSS.escape(id)} a`)?.click();
-    }, titleId);
-
-    // Give first group extra attempts since page just finished loading
-    const maxAttempts = i === 0 ? 60 : 40;
-
-    // Poll every 500ms until links appear
-    let links = [];
-    for (let attempt = 0; attempt < maxAttempts; attempt++) {
-      await wait(500);
-      links = await page.evaluate((id) => {
-        return [...(document.getElementById(id)?.querySelectorAll("a[href]") ?? [])]
-          .filter((a) => !a.href.includes("/_layouts/") && !a.href.includes("/Forms/"))
-          .map((a) => ({ name: a.textContent.trim(), url: a.href }))
-          .filter((r) => r.name.length > 2);
-      }, bodyId);
-      if (links.length > 0) break;
+        } else {
+            // Reset stuck counter if new records were found
+            stuckCount = 0;
+            previousCount = records.length;
+        }
     }
 
-    console.log(`${links.length} file(s)`);
-    links.forEach((l) =>
-      results.push({ section, year, evento: event, document_name: l.name, url: l.url })
-    );
-    await wait(200);
-  }
-
-  return results;
-} 
-
-// Separate function to directly collect links from sections
-// that have no event groups — just direct links (e.g. PowerBI links)
-async function collectDirectLinks(page, prefixMap, sections) {
-  const results = [];
-
-  for (const [section, years] of Object.entries(sections)) {
-    const links = await page.evaluate((pMap, sec, yrs) => {
-      const links = [];
-
-      // Find the prefix for this section
-      const prefix = Object.keys(pMap).find((k) => pMap[k] === sec);
-      if (!prefix) return links;
-
-      // Find all year rows for this section
-      document.querySelectorAll("td.ms-gb:not(.ms-gb2)").forEach((td) => {
-        const tdPrefix = td.closest("tbody")?.id.match(/titl(\d+)-/)?.[1];
-        if (tdPrefix !== prefix) return;
-
-        const year = td.innerText.match(/(\d{4})/)?.[1];
-        if (!year || !yrs.includes(year)) return;
-
-        // Get the body tbody for this year row
-        const titleId = td.closest("tbody")?.id;
-        if (!titleId) return;
-        const bodyId  = titleId.replace("titl", "tbod").replace(/_$/, "__");
-        const bodyEl  = document.getElementById(bodyId);
-        if (!bodyEl) return;
-
-        // Collect all direct links inside the body
-        [...(bodyEl.querySelectorAll("a[href]") ?? [])]
-          .filter((a) => !a.href.includes("/_layouts/"))
-          .map((a) => ({ name: a.textContent.trim(), url: a.href, year }))
-          .filter((r) => r.name.length > 2)
-          .forEach((l) => links.push(l));
-      });
-
-      return links;
-    }, prefixMap, section, years);
-
-    links.forEach((l) =>
-      results.push({ section, year: l.year, evento: "-", document_name: l.name, url: l.url })
-    );
-    console.log(`  ${section} → ${links.length} direct link(s) found`);
-  }
-
-  return results;
+    // Keep only first 250 records
+    return records.slice(0, 250);
 }
+// PART 3: save the results and close the browser
+async function saveResult(records, browser) {
 
-function saveResults(results) {
-  const output = {};
-  for (const section of Object.keys(SECTIONS)) {
-    output[section] = results.filter((r) => r.section === section);
-  }
+    // Write JSON file and the results will stored in the hkex_results.json
+    fs.writeFileSync("hkex_results.json", JSON.stringify(records, null, 4));
+    console.log("Completed. Saved", records.length, "records.");
 
-  fs.writeFileSync("ins_events.json", JSON.stringify(output, null, 2));
-
-  // Print: section → year → evento → file count
-  for (const [section, docs] of Object.entries(output)) {
-    console.log(`\n${"=".repeat(60)}`);
-    console.log(` ${section}`);
-    console.log("=".repeat(60));
-    const years = [...new Set(docs.map((d) => d.year))].sort();
-    for (const yr of years) {
-      console.log(`\n  Year: ${yr}`);
-      console.log(`  ${"─".repeat(50)}`);
-      const yearDocs = docs.filter((d) => d.year === yr);
-      const eventoMap = {};
-      for (const doc of yearDocs) {
-        eventoMap[doc.evento] = (eventoMap[doc.evento] || 0) + 1;
-      }
-      for (const [evento, count] of Object.entries(eventoMap)) {
-        console.log(`  ${evento.padEnd(55)} ${count} file(s)`);
-      }
-      console.log(`\n  Total for ${yr}: ${yearDocs.length} files`);
-    }
-  }
-  console.log(`\n${"=".repeat(60)}`);
-  console.log(` Grand Total: ${results.length} documents → ins_events.json`);
-  console.log("=".repeat(60));
-}
-
-(async () => {
-  const { browser, page } = await openPage();
-
-  const prefixMap = await detectWebpartPrefixes(page, SECTIONS);
-  console.log("Detected prefixes:", prefixMap);
-
-  if (Object.keys(prefixMap).length === 0) {
-    console.log("ERROR: Could not detect webpart prefixes.");
     await browser.close();
-    return;
-  }
+}
 
-  // Sections that have event groups
-  const EVENT_SECTIONS = {
-    "Informes de Evento":  [String(CURRENT_YEAR - 2), String(CURRENT_YEAR - 1), String(CURRENT_YEAR)],
-    "Tableros de control": [String(CURRENT_YEAR)],
-  };
+// main function
+async function main() {
+    const { browser, page } = await openBrowser();
+    const records = await collectRecords(page);
+    await saveResult(records, browser);
+}
 
-  // Sections that have direct links only (no event groups)
-  const DIRECT_SECTIONS = {
-    "Tableros de control de laboratorio": [String(CURRENT_YEAR - 2)],
-  };
-
-  await expandYears(page, prefixMap, { ...EVENT_SECTIONS, ...DIRECT_SECTIONS });
-
-  const groups        = await getEventGroups(page, prefixMap, EVENT_SECTIONS);
-  const eventResults  = await collectLinks(page, groups);
-
-  console.log("Collecting direct links...");
-  const directResults = await collectDirectLinks(page, prefixMap, DIRECT_SECTIONS);
-
-  const results = [...eventResults, ...directResults]; // merge both
-  await browser.close();
-  saveResults(results);
-})();
+main();

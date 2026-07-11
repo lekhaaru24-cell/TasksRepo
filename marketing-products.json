@@ -1,0 +1,242 @@
+[
+  {
+    "productId": 13,
+    "name": "Bedside Table African Cherry",
+    "category": "furniture",
+    "discount": 19.09,
+    "rating": 2.87,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 2,
+    "name": "Eyeshadow Palette with Mirror",
+    "category": "beauty",
+    "discount": 18.19,
+    "rating": 2.86,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 7,
+    "name": "Chanel Coco Noir Eau De",
+    "category": "fragrances",
+    "discount": 16.51,
+    "rating": 4.26,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 30,
+    "name": "Kiwi",
+    "category": "groceries",
+    "discount": 15.22,
+    "rating": 4.93,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 8,
+    "name": "Dior J'adore",
+    "category": "fragrances",
+    "discount": 14.72,
+    "rating": 3.8,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 12,
+    "name": "Annibale Colombo Sofa",
+    "category": "furniture",
+    "discount": 14.4,
+    "rating": 3.92,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 27,
+    "name": "Honey Jar",
+    "category": "groceries",
+    "discount": 14.4,
+    "rating": 3.97,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 10,
+    "name": "Gucci Bloom Eau de",
+    "category": "fragrances",
+    "discount": 14.39,
+    "rating": 2.74,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 19,
+    "name": "Chicken Meat",
+    "category": "groceries",
+    "discount": 13.7,
+    "rating": 3.19,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 16,
+    "name": "Apple",
+    "category": "groceries",
+    "discount": 12.62,
+    "rating": 4.19,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 4,
+    "name": "Red Lipstick",
+    "category": "beauty",
+    "discount": 12.16,
+    "rating": 4.36,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 29,
+    "name": "Juice",
+    "category": "groceries",
+    "discount": 12.06,
+    "rating": 3.94,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 5,
+    "name": "Red Nail Polish",
+    "category": "beauty",
+    "discount": 11.44,
+    "rating": 4.32,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 23,
+    "name": "Eggs",
+    "category": "groceries",
+    "discount": 11.05,
+    "rating": 2.53,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 1,
+    "name": "Essence Mascara Lash Princess",
+    "category": "beauty",
+    "discount": 10.48,
+    "rating": 2.56,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 22,
+    "name": "Dog Food",
+    "category": "groceries",
+    "discount": 10.27,
+    "rating": 4.55,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 3,
+    "name": "Powder Canister",
+    "category": "beauty",
+    "discount": 9.84,
+    "rating": 4.64,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 17,
+    "name": "Beef Steak",
+    "category": "groceries",
+    "discount": 9.61,
+    "rating": 4.47,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 18,
+    "name": "Cat Food",
+    "category": "groceries",
+    "discount": 9.58,
+    "rating": 3.13,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 20,
+    "name": "Cooking Oil",
+    "category": "groceries",
+    "discount": 9.33,
+    "rating": 4.8,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 15,
+    "name": "Wooden Bathroom Sink With Mirror",
+    "category": "furniture",
+    "discount": 8.8,
+    "rating": 3.59,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 28,
+    "name": "Ice Cream",
+    "category": "groceries",
+    "discount": 8.69,
+    "rating": 3.39,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 11,
+    "name": "Annibale Colombo Bed",
+    "category": "furniture",
+    "discount": 8.57,
+    "rating": 4.77,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 24,
+    "name": "Fish Steak",
+    "category": "groceries",
+    "discount": 4.23,
+    "rating": 3.78,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 14,
+    "name": "Knoll Saarinen Executive Conference Chair",
+    "category": "furniture",
+    "discount": 2.01,
+    "rating": 4.88,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 6,
+    "name": "Calvin Klein CK One",
+    "category": "fragrances",
+    "discount": 1.89,
+    "rating": 4.37,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 26,
+    "name": "Green Chili Pepper",
+    "category": "groceries",
+    "discount": 1,
+    "rating": 3.66,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 9,
+    "name": "Dolce Shine Eau de",
+    "category": "fragrances",
+    "discount": 0.62,
+    "rating": 3.96,
+    "marketingTag": "REVIEW"
+  },
+  {
+    "productId": 21,
+    "name": "Cucumber",
+    "category": "groceries",
+    "discount": 0.16,
+    "rating": 4.07,
+    "marketingTag": "PROMOTE"
+  },
+  {
+    "productId": 25,
+    "name": "Green Bell Pepper",
+    "category": "groceries",
+    "discount": 0.16,
+    "rating": 3.25,
+    "marketingTag": "REVIEW"
+  }
+]

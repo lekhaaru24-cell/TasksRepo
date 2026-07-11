@@ -1,94 +1,110 @@
-//News and communications - GOV.UK
-//Find news and communications from government
+// Fetching the all the urls from the web page-Web Scraping
+const axios=require("axios");
+const cheerio=require("cheerio");
+const BASE = "https://www.gov.uk";
  
-// const axios = require("axios");
-// const cheerio=require("cheerio");
+const LIST_URL =
+  "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-treasury&order=updated-newest";
  
-// const Api_endpoint = "https://www.nyse.com/api/notifications/public/system/1/summaries/filter?pageSize=9&pageNumber=0&sortKey=publishedDate&sortOrder=desc%22 ;
-// const base_url = "https://www.nyse.com/api/notifications/public/summary/";
+  //get links
+async function getLinks() {
+  try {
+    const res = await axios.get(LIST_URL, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+        Accept: "text/html",
+      },
+    });
  
-// function cleanbody(html){
-//     if(!html){
-//         console.error(err);
-//     }
-//     const $ = cheerio.load(html);
-//     return $("body").text().replace(/\s+/g, " ");
-// }
+    const $ = cheerio.load(res.data);
  
-// function getdata(data){
-//     return{
-//     ID: data.id,
-//     URL: `${base_url}#${data.id}?systemId=1`,
-//     Title: data.subject,
-//     Publishedate:new Date(data.publishedDate).toISOString(),
-//     Content: cleanbody(data.body)
-//     };
+    //correct selector for listing page
+    const hrefs = $("ul.gem-c-document-list li.gem-c-document-list__item a")
+      .map((_, el) => $(el).attr("href"))
+      .get();
  
-// }
-// async function main(){
-//     try{
-//     const item = await axios.get(Api_endpoint);
-//     const res = item.data.data;
-//     const result = res.map(getdata);
-//     console.log(result);
-//     }
-//     catch(err){
-//         console.error(err);
-//     }
-// }
+    return [...new Set(hrefs.map((h) => BASE + h))];
+  }
+  catch (err) {
+    console.log("Failed to fetch list page");
+    console.log(err.message);
+    return [];
+  }
+}
  
-// main();
+//scrape article
+async function scrapeArticle(url) {
+  try {
+    const res = await axios.get(url, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+        Accept: "text/html",
+      },
+    });
  
-// const axios = require("axios");
-// const cheerio = require("cheerio");
+    const $ = cheerio.load(res.data);
  
-// const Api_endpoint =
-//   "https://www.nyse.com/api/notifications/public/system/1/summaries/filter?pageSize=9&pageNumber=0&sortKey=publishedDate&sortOrder=desc";
+    const title = $("h1").first().text().trim() || $("title").text().trim();
  
-// const Base_api =
-//   "https://www.nyse.com/api/notifications/public/summary/";
+    let date = "";
  
-// function cleanBody(html) {
-//   const $ = cheerio.load(html);
+    $("dl").each((_, dl) => {
+    const dt = $(dl).find("dt");
+    dt.each((i, el) => {
+      if ($(el).text().trim() === "Published") {
+        date = $(el).next("dd").text().trim();
+      }
+    });
+    });
  
-//   return $("body").text().replace(/\s+/g, " ").trim();
-// }
+    date = date || "No date found";
  
-// async function getDetail(id) {
-//   const url = `${Base_api}${id}?systemId=1`;
+    let content = $("article p")
+      .map((_, el) => $(el).text().trim())
+      .get()
+      .join(" ");
  
-//   const result = await axios.get(url);
+    if (!content || content.length < 50) {
+      content = $("main p")
+        .map((_, el) => $(el).text().trim())
+        .get()
+        .join(" ");
+    }
  
-//   return {
-//     ID: result.data.id,
-//     URL: url,
-//     Title: result.data.subject,
-//     PublishedDate: new Date(result.data.publishedDate).toISOString(),
-//     Content: cleanBody(result.data.body),
-//   };
-// }
+    content = content.replace(/\s+/g, " ").slice(0, 500);
  
-// async function main() {
-//   try {
-//     const index = await axios.get(Api_endpoint);
-//     const ids = index.data.data.map(item => item.id);
-//     console.log("IDs:", ids);
-//     const results = [];
-//     for (const id of ids) {
-//       try {
-//         const detail = await getDetail(id);
-//         results.push(detail);
-//       }
-//       catch (err) {
-//         console.log(`Failed to fetch ${id}`);
-//       }
-//     }
-//     console.log(results);
-//   }
-//   catch (err) {
-//     console.error(err);
-//   }
-// }
+    return { url, title, date, content };
+  }
+  catch (err) {
+    console.log("FAILED:", url);
+    return null;
+  }
+}
  
-// main();
+//main
+async function main() {
+  console.log("Fetching links...");
  
+  const links = await getLinks();
+ 
+  console.log("Links found:", links.length);
+  console.log(links);
+ 
+  const results = [];
+ 
+  for (const link of links) {
+    const data = await scrapeArticle(link);
+ 
+    if (data) {
+      console.log("Scraped:", data.title);
+      results.push(data);
+    }
+  }
+ 
+  console.log("\nFINAL OUTPUT:");
+  console.log(results);
+}
+ 
+main();

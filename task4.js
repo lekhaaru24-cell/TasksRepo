@@ -1,39 +1,69 @@
-//to count total size, folders and files
- 
-const fs = require("fs");
-const path = require("path");
- 
-function getFolderInfo(folderPath) {
-    let totalSize = 0;
-    let fileCount = 0;
-    let folderCount = 0;
- 
-    const items = fs.readdirSync(folderPath, { withFileTypes: true });
-    console.log(items);
-    for (const item of items) {
-        const fullPath = path.join(folderPath, item.name);
- 
-        if (item.isFile()) {
-            const stats = fs.statSync(fullPath);
-            totalSize += stats.size;
-            fileCount++;
-        }
- 
-        else if (item.isDirectory()) {
-            folderCount++;
-            const result = getFolderInfo(fullPath);
-            totalSize += result.totalSize;
-            fileCount += result.fileCount;
-            folderCount += result.folderCount;
-        }
-    }
- 
-    return { totalSize, fileCount, folderCount };
+// synchronous file operations-File systems
+
+const fs=require("fs");
+fs.writeFileSync("sample.txt", "Learning Node.js File System");
+
+fs.appendFileSync("sample.txt", "\nThis is another line.");
+
+console.log(fs.readFileSync("sample.txt", "utf8"));
+
+fs.renameSync("sample.txt", "newSample.txt");
+console.log("File renamed");
+
+if (fs.existsSync("newSample.txt")) {
+    console.log("File exists");
 }
- 
-const result = getFolderInfo("/Users/Lekha.DH/Documents/nodedemo");
- 
-console.log("Total size:", result.totalSize, "bytes");
-console.log("Files:", result.fileCount);
-console.log("Folders:", result.folderCount);
- 
+
+fs.unlinkSync("newSample.txt");
+console.log("File deleted");
+
+fs.mkdirSync("MyFolder");
+console.log("Folder created");
+
+fs.rmdirSync("MyFolder");
+console.log("Folder removed");
+
+//asynchronous file operation
+
+const fs = require("fs");
+
+// Create and write file
+fs.writeFile("demo.txt", "Welcome to Node.js File System", (err) => {
+    if (err) throw err;
+    console.log("File created and data written");
+
+    // Read file
+    fs.readFile("demo.txt", "utf8", (err, data) => {
+        if (err) throw err;
+        console.log("File content:");
+        console.log(data);
+
+        // Append data
+        fs.appendFile("demo.txt", "\nLearning asynchronous operations.", (err) => {
+            if (err) throw err;
+            console.log("Data appended");
+
+            // Rename file
+            fs.rename("demo.txt", "myDemo.txt", (err) => {
+                if (err) throw err;
+                console.log("File renamed");
+
+                // Check file exists
+                fs.access("myDemo.txt", fs.constants.F_OK, (err) => {
+                    if (err) {
+                        console.log("File does not exist");
+                    } else {
+                        console.log("File exists");
+                    }
+
+                    // Delete file
+                    fs.unlink("myDemo.txt", (err) => {
+                        if (err) throw err;
+                        console.log("File deleted");
+                    });
+                });
+            });
+        });
+    });
+});
+
