@@ -1,5 +1,5 @@
-/* To automatically visit the ZBS-GIZ website, extract the names and download URLs of documents 
-listed on a page, organize them with their section headings, and save the results as a JSON file.*/
+/*  To automatically visit the ZBS-GIZ website, extract the names and download URLs of documents 
+listed on a page, organize them with their section headings, and save the results as a JSON file. */
 const puppeteer = require("puppeteer");
 const fs        = require("fs");
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -55,7 +55,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   });
 
   // Step 3: Save
-  fs.writeFileSync("zbs_results.json", JSON.stringify(results, null, 2));
+  fs.writeFileSync("task13_results.json", JSON.stringify(results, null, 2));
   console.log(`\nSaved ${results.length} records → zbs_results.json`);
 
   await browser.close();
