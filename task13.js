@@ -55,7 +55,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   });
 
   // Step 3: Save
-  fs.writeFileSync("zbs_results.json", JSON.stringify(results, null, 2));
+  fs.writeFileSync("task13_results.json", JSON.stringify(results, null, 2));
   console.log(`\nSaved ${results.length} records → zbs_results.json`);
 
   await browser.close();
