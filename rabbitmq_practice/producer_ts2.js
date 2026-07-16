@@ -1,3 +1,4 @@
+//task2-send Multiple Messages Queue FIFO
 const amqp = require("amqplib");
 
 async function producer() {

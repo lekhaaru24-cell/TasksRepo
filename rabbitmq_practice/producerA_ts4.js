@@ -1,5 +1,5 @@
+//task4-sharing the same queue with other producer
 const amqp = require("amqplib");
-
 async function producerA() {
   const connection = await amqp.connect("amqp://localhost");
   const channel = await connection.createChannel();

@@ -1,3 +1,4 @@
+//task7-purge-queue-deletes teh messages but keeps queue intact
 const amqp = require("amqplib");
 
 async function producer() {

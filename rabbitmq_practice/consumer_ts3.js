@@ -1,5 +1,5 @@
+//task3-queue monitoring
 const amqp = require("amqplib");
-
 async function consumer() {
   const connection = await amqp.connect("amqp://localhost");
   const channel = await connection.createChannel();

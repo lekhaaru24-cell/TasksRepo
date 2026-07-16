@@ -1,5 +1,5 @@
+// task5-creating multiple consumers to receive the messages from the single producer
 const amqp = require("amqplib");
-
 // Read consumer name from command line → node consumer.js C1
 const consumerName = process.argv[2] || "Consumer";
 

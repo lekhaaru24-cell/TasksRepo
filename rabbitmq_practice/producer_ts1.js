@@ -1,4 +1,4 @@
-// task 1
+//task 1-create a first queue
 const amqp = require("amqplib");
 
 async function producer() {
