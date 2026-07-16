@@ -1,5 +1,5 @@
+//task6-received the persistent messages
 const amqp = require("amqplib");
-
 async function consumer() {
   const connection = await amqp.connect("amqp://localhost");
   const channel = await connection.createChannel();
@@ -20,9 +20,7 @@ async function consumer() {
       channel.ack(msg);
 
       if (count === 10) {
-        console.log("\n─────────────────────────────────────────");
         console.log("[Consumer] All 10 messages survived the restart.");
-        console.log("─────────────────────────────────────────");
       }
     }
   });

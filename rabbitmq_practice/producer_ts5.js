@@ -1,5 +1,5 @@
+//task5-To send the message to the multiple consumers
 const amqp = require("amqplib");
-
 async function producer() {
   const connection = await amqp.connect("amqp://localhost");
   const channel = await connection.createChannel();

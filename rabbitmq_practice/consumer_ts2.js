@@ -1,3 +1,4 @@
+//task2-receive Multiple Messages Queue FIFO
 const amqp = require("amqplib");
 
 async function consumer() {
