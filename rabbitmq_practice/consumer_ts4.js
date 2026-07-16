@@ -1,5 +1,5 @@
+//task4-recieving messages from multiple producers 
 const amqp = require("amqplib");
-
 async function consumer() {
   const connection = await amqp.connect("amqp://localhost");
   const channel = await connection.createChannel();
