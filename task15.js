@@ -4,8 +4,6 @@ const fs = require("fs");
 const https = require("https");
 
 const BASE_URL = "https://www.amlc.gov.ph";
-
-// Bypass SSL certificate validation
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 async function getNewsUrls() {
@@ -13,6 +11,7 @@ async function getNewsUrls() {
     httpsAgent,
   });
  console.log(data);
+
   const urls = data.data.slice(0,6).map((item) => ({
     id: item.id,
     title: item.title,
