@@ -1,11 +1,11 @@
 const amqp = require("amqplib");
 
 const RABBITMQ_URL = "amqp://localhost";
-const QUEUE_NAME = "task_queue";
+const QUEUE_NAME   = "task_queue";
 
 const processedMessages = [];
 let messageCount = 0;
-let intervalId = null;
+let intervalId   = null;
 
 async function startWorker() {
   try {
@@ -13,18 +13,24 @@ async function startWorker() {
     const connection = await amqp.connect(RABBITMQ_URL);
 
     connection.on("error", (err) => {
-      console.error("[RabbitMQ Connection Error]", err);
+      console.error("[RabbitMQ Connection Error]", err.message);
     });
 
+    // ✅ Reconnect when connection closes
     connection.on("close", () => {
-      console.error("[RabbitMQ Connection Closed]");
+      console.error("[RabbitMQ Connection Closed] Reconnecting in 5 seconds...");
+      if (intervalId) {
+        clearInterval(intervalId); // stop producer interval
+        intervalId = null;
+      }
+      setTimeout(startWorker, 5000); // retry after 5 seconds
     });
 
     // Create channel
     const channel = await connection.createChannel();
 
     channel.on("error", (err) => {
-      console.error("[RabbitMQ Channel Error]", err);
+      console.error("[RabbitMQ Channel Error]", err.message);
     });
 
     channel.on("close", () => {
@@ -63,7 +69,6 @@ async function startWorker() {
     // Producer
     function sendMessage() {
       try {
-        // Stop after sending 20 messages
         if (messageCount >= 20) {
           clearInterval(intervalId);
           intervalId = null;
@@ -74,8 +79,8 @@ async function startWorker() {
         messageCount++;
 
         const message = JSON.stringify({
-          id: messageCount,
-          text: `Hello from producer! Message #${messageCount}`,
+          id:        messageCount,
+          text:      `Hello from producer! Message #${messageCount}`,
           timestamp: new Date().toISOString(),
         });
 
@@ -91,7 +96,7 @@ async function startWorker() {
           console.log("[Producer] Sent:", message);
         }
       } catch (err) {
-        console.error("[Producer Error]", err);
+        console.error("[Producer Error]", err.message);
       }
     }
 
@@ -99,11 +104,13 @@ async function startWorker() {
     sendMessage();
 
     // Send remaining messages every 3 seconds
-    intervalId = setInterval(sendMessage, 3000);
+    intervalId = setInterval(sendMessage, 2000);
 
   } catch (err) {
-    console.error("[Worker Startup Error]", err);
-    process.exit(1);
+    // Retry on startup error
+    console.error("[Worker Startup Error]", err.message);
+    console.log("Retrying in 5 seconds...");
+    setTimeout(startWorker, 5000);
   }
 }
 
